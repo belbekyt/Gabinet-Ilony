@@ -1,0 +1,14 @@
+@media (max-width: 991.98px) {
+    .pre-footer{
+        padding: 40px 0px;
+    }
+}
+
+@media (max-width: 575.98px) {
+    .footer-box{
+        flex-direction: column;
+    }
+    .contact-item img{
+        margin-right: 10px;
+    }
+}

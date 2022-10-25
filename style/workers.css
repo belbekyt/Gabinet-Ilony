@@ -1,0 +1,87 @@
+.workers-holder {
+  width: 100%;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+}
+
+.worker {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+.worker1 {
+  background-image: url(../img/workers/worker1.jpg);
+}
+
+.worker2 {
+  background-image: url(../img/workers/worker2.jpg);
+}
+
+.worker3 {
+  background-image: url(../img/workers/worker3.jpg);
+}
+
+.worker4 {
+  background-image: url(../img/workers/worker4.jpg);
+}
+
+.worker5 {
+  background-image: url(../img/workers/worker5.jpg);
+}
+
+.worker6 {
+  background-image: url(../img/workers/worker6.jpg);
+}
+
+.worker7 {
+  background-image: url(../img/workers/worker7.jpg);
+}
+
+.worker8 {
+  background-image: url(../img/workers/worker8.jpeg);
+}
+
+.worker9 {
+  background-image: url(../img/workers/worker9.jpg);
+}
+
+.worker10 {
+  background-image: url(../img/workers/worker10.jpg);
+}
+
+.worker11 {
+  background-image: url(../img/workers/worker11.jpg);
+}
+
+.worker12 {
+  background-image: url(../img/workers/worker12.jpg);
+}
+
+.worker div {
+  width: 80%;
+  height: 360px;
+  background-size: cover;
+  background-position: center;
+}
+
+.worker h2 {
+  background-color: var(--granatowy);
+  color: white;
+  width: 60%;
+  height: 50px;
+  text-align: center;
+  line-height: 50px;
+  margin-top: -25px;
+}
+
+.worker h3 {
+  margin: 30px 0 10px 0;
+}
+
+.worker p {
+  padding: 0 15%;
+  margin-bottom: 60px;
+  text-align: center;
+}

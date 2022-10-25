@@ -1,0 +1,33 @@
+@media (max-width: 991.98px) {
+    .short-about{
+        padding: 35px 75px;
+    }
+}
+
+@media (max-width: 767.98px) {
+    .short-about{
+        padding: 30px 40px;
+    }
+
+    .short-about h3{
+        font-size:1.9em;
+    }
+}
+
+@media (max-width: 575.98px) {
+    .short-about{
+        padding: 20px 20px;
+    }
+
+    .articles{
+        flex-direction: column;
+    }
+
+    .article{
+        width: 90%;
+    }
+
+    .short-about h3{
+        font-size:1.7em;
+    }
+}

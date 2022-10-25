@@ -1,0 +1,62 @@
+.table-incoming {
+  width: 90%;
+  border: 3px solid var(--morski);
+  border-spacing: 0;
+  border-radius: 10px;
+  margin-bottom: 40px;
+}
+
+.table-heading {
+  background-color: var(--morski);
+  color: white;
+  text-transform: uppercase;
+}
+
+.tables {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+td {
+  text-align: center;
+  padding: 10px 0;
+  letter-spacing: 0.5px;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+input[type="submit"] {
+  width: 250px;
+  background-color: var(--morski);
+  border-radius: 30px;
+  color: white;
+  font-size: 14px;
+  font-weight: bold;
+  letter-spacing: 0.8px;
+  cursor: pointer;
+  border: 0;
+  line-height: 50px;
+  margin-top: 15px;
+}
+
+select {
+  width: 300px;
+  height: 30px;
+  border-radius: 0px;
+  border: 0px;
+  text-align: center;
+  font-size: 14px;
+}
+
+.table-main th {
+  text-align: left;
+}
+
+.table-main td {
+  padding: 7px 20px;
+}
